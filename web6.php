@@ -6,7 +6,7 @@
 </form>
 <pre>
 <?php
-echo ini_get("/flag.txt");
+echo ini_get("/etc/passwd");
 ?>
 
 </pre>
