@@ -6,7 +6,7 @@
 </form>
 <pre>
 <?php
-echo ini_get("disable_functions");
+echo ini_get("/flag.txt");
 ?>
 
 </pre>
